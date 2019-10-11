@@ -1,0 +1,41 @@
+body
+{
+    text-align: center;
+}
+
+body .group_of_boxes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body .group_of_boxes .color_box
+{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+body .group_of_boxes  .box_black
+{
+    background-color: black;
+
+}
+
+body .group_of_boxes  .box_green
+{
+    background-color: green;
+}
+
+body .group_of_boxes  .box_red
+{
+    background-color: red;
+}
+
+button
+{
+    margin-top: 2rem;
+}
+input[type=radio]
+{display: none;}
